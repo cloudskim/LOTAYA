@@ -1,0 +1,65 @@
+ *{
+	margin: 0;
+	padding: 0;
+ }
+
+ #frame2{
+	box-sizing: border-box;
+	width: 50%;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: 768px 900px;
+	color: blanchedalmond;
+	padding: 50px;
+}
+input[type=text],input[type=tel]{
+	height:25px;
+	background-color: white;
+	text-align: left;
+	border-radius: 10px;
+	
+	box-shadow: 5px 5px 5px;
+	width: 200px;
+}
+input[type=submit]{
+	height:25px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 70px;
+	box-shadow: 5px 5px 5px;
+	width: 90px;
+}
+textarea{
+	height:25px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 70px;
+	box-shadow: 5px 5px 5px;
+	width: 280px;
+	height: 200px;	
+}
+label{
+	color: white;
+	font-size: 20px;
+}
+#frame2h1{
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+#paragraph{
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+	text-align: left;
+	padding-bottom: 30px;
+	font-size: 18px;
+	line-height: 29px;
+}
+.frame22{
+	display: flex;
+}
+.labels{
+	font-size: 18px;
+}

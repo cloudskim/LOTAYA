@@ -1,0 +1,56 @@
+function Eng() {
+    document.getElementById("id1").innerHTML = "Strawberry Juice";
+    document.getElementById("id2").innerHTML = "Avocado Juice";
+    document.getElementById("id3").innerHTML = "Papaya Juice";
+    document.getElementById("id4").innerHTML = "Watermelon Juice";
+    document.getElementById("id5").innerHTML = "Tamarind Juice";
+    document.getElementById("id6").innerHTML = "Apple Juice";
+    document.getElementById("id7").innerHTML = "Lime";
+    document.getElementById("id8").innerHTML = "Pineapple Juice";
+    document.getElementById("id9").innerHTML = "Kiwi Juice";
+    document.getElementById("id13").innerHTML = "Strawberry Yogurt";
+    document.getElementById("id10").innerHTML = "Yogurt";
+    document.getElementById("id11").innerHTML = "Coffee";
+    document.getElementById("id12").innerHTML = "Tea";
+    document.getElementById("id14").innerHTML = "Domino";
+    document.getElementById("id15").innerHTML = "Falooda";
+    document.getElementById("id16").innerHTML = "Hot-Milk";
+    document.getElementById("id17").innerHTML = "Iced-Milk";
+    document.getElementById("id18").innerHTML = "Mote-Lat-Saung";
+    document.getElementById("id19").innerHTML = "Sugarcane Juice";
+    document.getElementById("id20").innerHTML = "Grapefruit Juice";
+    document.getElementById("id21").innerHTML = "Sticky Rice Wine";
+    document.getElementById("id22").innerHTML = "Dragon Fruit Juice";
+    document.getElementById("id23").innerHTML = "Lychee Juice";
+    document.getElementById("id24").innerHTML = "Orange Juice";
+    document.getElementById("images").style.marginLeft = "125px";
+    document.getElementById("nonephoto").style.display = 'none';
+}
+function Myan() {
+    document.getElementById("id1").innerHTML = "စတော်ဘယ်ရီသီးဖျော်ရည်";
+    document.getElementById("id2").innerHTML = "ထောပတ်သီးဖျော်ရည်";
+    document.getElementById("id3").innerHTML = "သင်္ဘောသီးဖျော်ရည်";
+    document.getElementById("id4").innerHTML = "ဖရဲသီးဖျော်ရည်";
+    document.getElementById("id5").innerHTML = "မန်ကျည်းသီးဖျော်ရည်";
+    document.getElementById("id6").innerHTML = "ပန်းသီးဖျော်ရည်";
+    document.getElementById("id7").innerHTML = "သံပုရာရည်";
+    document.getElementById("id8").innerHTML = "နာနတ်သီးဖျော်ရည်";
+    document.getElementById("id9").innerHTML = "ကီဝီသီးဖျော်ရည်";
+    document.getElementById("id13").innerHTML = "စတော်ဘယ်ရီဒိန်ချဉ်";
+    document.getElementById("id10").innerHTML = "ဒိန်ချဉ်";
+    document.getElementById("id11").innerHTML = "ကော်ဖီ";
+    document.getElementById("id12").innerHTML = "လက်ဖက်ရည်";
+    document.getElementById("id14").innerHTML = "ဒိုမီနို";
+    document.getElementById("id15").innerHTML = "ဖာလူဒါ";
+    document.getElementById("id16").innerHTML = "နွားနို့အပူ";
+    document.getElementById("id17").innerHTML = "နွားနို့အေး";
+    document.getElementById("id18").innerHTML = "မုန့်လက်ဆောင်း";
+    document.getElementById("id19").innerHTML = "ကြံရည်";
+    document.getElementById("id20").innerHTML = "ဂရိတ်ဖရုသီးဖျော်ရည်";
+    document.getElementById("id21").innerHTML = "ခေါင်ရည်";
+    document.getElementById("id22").innerHTML = "နဂါးမောက်သီးဖျော်ရည်";
+    document.getElementById("id23").innerHTML = "လိုင်ချီးသီးဖျော်ရည်";
+    document.getElementById("id24").innerHTML = "လိမ္မော်သီးဖျော်ရည်";
+    document.getElementById("images").style.marginLeft = "100px";
+    document.getElementById("nonephoto").style.display = "block";
+}

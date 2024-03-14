@@ -1,0 +1,41 @@
+#frame1{
+	box-sizing: border-box;
+	width: 50%;
+	height: 900px;
+	background-size: 768px 900px;
+	background-repeat:no-repeat;
+	color: black;
+	font-family: 'Libre Baskerville', serif;
+	overflow-x: hidden;
+	}
+#frameh1 {
+	font-family: 'Merriweather', serif;
+	color: blanchedalmond;
+	margin-left: 50px;
+	padding-top: 50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+#frameh3{
+	font-family: 'Merriweather', serif;
+	color: blanchedalmond;
+	margin-left: 50px;
+	font-size: 40px;
+	font-weight: bold;
+}
+#frameh2 {
+	font-family: 'Merriweather', serif;
+	color: blanchedalmond;
+	margin-left: 50px;
+	margin-top: 40px;}
+#frame1p{
+	font-family: 'Libre Baskerville', serif;
+	color: black;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	line-height: 29px;
+}
+
