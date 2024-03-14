@@ -1,0 +1,148 @@
+		.by{
+            padding-top: 10vh;
+            background-image: url(.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        h3{
+            font-family: 'Merriweather', serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            font-family: 'Libre Baskerville', serif;
+            width: 80vw;
+            padding: 15px;
+        }
+        
+        .hd1 {
+            color: #9A6449;
+            padding-bottom: 15px;
+            font-size: 27px;
+            text-align: justify;
+            padding: 0px 60px 45px 60px;
+        }
+        .hd3{
+        	color: white;
+        }
+        
+        .contact-info {
+            display: flex;
+            width: 90%;
+        }
+        
+        .fm {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            box-shadow: 0 0 15px #9A6449;
+            text-align: center;
+            color: gray;
+            border-radius: 5px;
+            padding: 7px;
+        }
+        
+        .details {
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            background: #9A6449;
+            color: white;
+            border-radius: 5px;
+            padding: 7px;
+            box-shadow: 0 0 15px #9A6449;
+
+        }
+        .contact-items{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            /* margin-left: 5px; */
+        }
+        .contact-items-wrapper{
+            padding: 25px;
+        }
+        
+        .details h3 {
+            text-align: center;
+        }
+        
+        .details p {
+            font-size: 15px;
+            margin-left: 15px;
+        }
+
+        .details p a{
+        color: white;
+        }
+        .details p a:hover{
+        color: wheat;
+        font-weight: bold;
+        }
+
+        .material-icons{
+            width: 12px;
+            margin: 5px;
+        }
+        
+        .in {
+            margin: 5px 15px;
+            height: 25px;
+            background-color: #ebc38c;
+        }
+        
+        .tex{
+            height: 150px;
+            margin: 5px 15px;
+            background-color: #ebc38c;
+        }
+        
+        .but {
+            margin-left: 260px;
+            width: 80px;
+            background: #9A6449;
+            padding: 3px 10px;
+            border: 0;
+            border-radius: 5px;
+            color: wheat;
+            font-size: 15px;
+            font-family: 'Libre Baskerville', serif;
+            cursor: pointer;
+        }
+        
+        @media screen and (max-width:780px) {
+            .contact-info {
+            flex-direction: column;
+            width: 90%;
+            }
+            .fm{
+                width: 100%;
+                margin-bottom: 5px;
+            }
+            .details{
+                width: 100%;
+            }
+        }
+        #icon{
+            display: inline;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 17px;
+            font-size: 25px;
+            color: rgb(71, 48, 2);
+        }
+
+        p{
+            font-family: 'Libre Baskerville', serif;
+        }
+        input{
+            font-family: 'Libre Baskerville', serif;
+        }
+        a{
+            text-decoration: none;
+        }

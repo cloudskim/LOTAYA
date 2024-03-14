@@ -1,0 +1,55 @@
+#booknow
+    {
+    box-sizing:border-box;
+    font-family:Arial, Verdana, sans-serif; 
+    height: 810px; 
+    width: 100%; 
+    background-size: 100% 800px;
+    background-image:url('photo5.jpg');
+    background-repeat: no-repeat;
+    }
+header 
+    {font-family: 'Merriweather'; 
+    color:white; 
+    padding-left: 25px; 
+    font-size: 200%;
+    font-style:bold;
+    }
+
+ul{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#wrapper1 
+    {
+    box-sizing: border-box;
+    font-family:'Times New Roman';
+    width: 50%; 
+    display: block; 
+    padding: 50px 30px; 
+    height: 300px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding-top: 50px;
+    text-decoration: none;
+    background-color:#ffffff80;
+    }
+    
+header {color:#000000;}
+   
+#rightcol
+    {color:rgb(116, 32, 32);
+        width: 5px; 
+        padding-right: 20%;
+        display: inline;
+        text-align:justify;
+    }
+#wrapper1
+    a:hover {color: rgb(116, 32, 32); }
+    
+#wrapper1 a{
+	text-decoration: none;
+    color:#000000;
+    font-size: 20px;
+}

@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bgpop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Merriweather',serif;
+}
+#head{
+    font-size: 50px;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 5px 5px 40px black;
+    font-family: 'Merriweather', serif;
+    padding-top: 30px;
+}
+#icon{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 17px;
+    font-size: 25px;
+    color: rgb(71, 48, 2);
+}
+/*first row*/
+#firstrow{
+    display: flex;
+    padding-top: 50px;
+}
+.divmohinga,.divseafood,.divshweyinaye{
+    box-sizing: border-box;
+    height: 350px;
+    width: 300px;
+}
+.mohinga,.seafood,.shweyinaye{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.mohinga:hover,.seafood:hover,.shweyinaye:hover{
+    width: 310px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.divmohinga{
+    margin-left: 100px;
+}
+#figmohinga{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+#mohingaCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divseafood{
+    margin-left: 180px;
+    border-radius: 10px;
+}
+#figseafood{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#seafoodCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divshweyinaye{
+    margin-left: 180px;
+}
+#figshweyinaye{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+#shweyinayeCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 110px;
+    text-shadow: 5px 5px 40px black;
+}
+/*second row*/
+#secondrow{
+    display: flex;
+    padding-top: 30px;
+}
+.divshan,.divtofu,.divkhaung{
+    box-sizing: border-box;
+    height: 350px;
+    width: 300px;
+}
+.shan,.tofu,.khaung{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.shan:hover,.tofu:hover,.khaung:hover{
+    width: 310px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.divshan{
+    margin-left: 100px;
+}
+#figshan{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 85px;
+    padding-top: 15px;
+}
+#shanCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divtofu{
+    margin-left: 180px;
+    border-radius: 10px;
+}
+#figtofu{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+#tofuCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divkhaung{
+    margin-left: 180px;
+}
+#figkhaung{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+#khaungCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+/*third row*/
+#thirdrow{
+    display: flex;
+    padding-top: 30px;
+}
+.divfish,.divlaphet,.divtea{
+    box-sizing: border-box;
+    height: 350px;
+    width: 300px;
+}
+.fish,.laphet,.tea{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.fish:hover,.laphet:hover,.tea:hover{
+    width: 310px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.divfish{
+    margin-left: 100px;
+}
+#figfish{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+#fishCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divlaphet{
+    margin-left: 180px;
+    border-radius: 10px;
+}
+#figlaphet{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+#laphetCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divtea{
+    margin-left: 180px;
+}
+#figtea{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+#teaCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+/*fourth row*/
+#fourthrow{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.divpork,.divkhawpote,.divtamarind{
+    box-sizing: border-box;
+    height: 350px;
+    width: 300px;
+}
+.pork,.khawpote,.tamarind{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.pork:hover,.khawpote:hover,.tamarind:hover{
+    width: 310px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+.divpork{
+    margin-left: 100px;
+}
+#figpork{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+#porkCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divkhawpote{
+    margin-left: 180px;
+    border-radius: 10px;
+}
+#figkhawpote{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+#khawpoteCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 105px;
+    text-shadow: 5px 5px 40px black;
+}
+.divtamarind{
+    margin-left: 180px;
+}
+#figtamarind{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+#tamarindCost{
+    display: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 115px;
+    text-shadow: 5px 5px 40px black;
+}
+.burmesenav{
+    padding-left: 80px;
+}
+.navbar a,#drop{
+    display: inline;
+    padding: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71, 48, 2);
+    
+}
+#drop{
+    padding-left: 15px;
+}
+.navbar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    
+    background-color: rgb(245, 222, 179,0.4);
+    padding-top: 18px;
+    text-align: center;
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    left: 76%;
+    top: 60px;
+    background-color: rgb(245, 222, 179,0.4);
+    box-sizing: border-box;
+    width: 150px;
+    
+}
+#trans1,#trans2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71, 48, 2);
+    border: none;
+    
+}
+#trans1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#trans1:hover,#trans2:hover{
+    color: black;
+}
+#trans2{
+    padding-bottom: 20px;
+}
+#drop:hover #dropdown{
+    display: block;
+}
+
+/*nav hover*/
+div a:hover{
+    color: black;
+    text-shadow: 0px 0px 1px black;
+}
+
+#footer{
+        height: 150px;
+        width: 100%;
+        background-color:rgb(116, 32, 32) ;
+        color:blanchedalmond;
+        text-align: center;
+        padding-top: 120px;
+        font-family: 'Merriweather', serif;
+        font-size: 10px;
+ }   
+
+.bottom{
+        text-decoration: none;
+        background-color: transparent;
+        color:blanchedalmond;
+}

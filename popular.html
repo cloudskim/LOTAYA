@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Dishes</title>
+    <link rel="stylesheet" href="popular.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="popular.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a class="burmesenav" href="burmese.html">BURMESE</a>
+        <a href="shan.html">SHAN</a>
+        <a href="dessert.html">DESSERT</a>
+        <a href="drink.html">DRINK</a>
+        <a href="popular.html">POPULAR</a>
+        <div id="drop">
+            <a href="#">TRANSLATE
+                <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="dropdown">
+                <div id="trans1" onclick="Eng()">English</div>
+                <div id="trans2" onclick="Myan()">Myanmar</div>
+            </div>
+        </div>
+        
+    </div>
+    <center>
+        <div id="head">Popular Dishes</div>
+    </center>
+    <a href="main.html">
+        <div id="icon">
+            <i class="fa-solid fa-reply-all"></i>
+        </div>
+    </a>
+    <!--first row-->
+    <div id="firstrow">
+        <div class="divmohinga">
+            <img src="mohinga.jpg" alt="mohinga" class="mohinga" onmouseover="mohingaOver()" onmouseout="mohingaOut()">
+            <figcaption id="figmohinga">မုန့်ဟင်းခါး</figcaption>
+            <div id="mohingaCost">2500Ks</div>
+        </div>
+        <div class="divseafood">
+            <img src="seafood.jpg" alt="seafood" class="seafood" onmouseover="seafoodOver()" onmouseout="seafoodOut()">
+            <figcaption id="figseafood">ပင်လယ်စာထမင်းကြော်</figcaption>
+            <div id="seafoodCost">5500Ks</div>
+        </div>
+        <div class="divshweyinaye">
+            <img src="shweyinaye.jpg" alt="shweyinaye" class="shweyinaye" onmouseover="shweyinayeOver()" onmouseout="shweyinayeOut()">
+            <figcaption id="figshweyinaye">ရွှေရင်အေး</figcaption>
+            <div id="shweyinayeCost">2000Ks</div>
+        </div>
+    </div>
+    <!--second row-->
+    <div id="secondrow">
+        <div class="divshan">
+            <img src="shan.jpg" alt="shan" class="shan" onmouseover="shanOver()" onmouseout="shanOut()">
+            <figcaption id="figshan">ရှမ်းခေါက်ဆွဲ</figcaption>
+            <div id="shanCost">3000Ks</div>
+        </div>
+        <div class="divtofu">
+            <img src="tofu.jpg" alt="tofu" class="tofu" onmouseover="tofuOver()" onmouseout="tofuOut()">
+            <figcaption id="figtofu">တိုဟူးနွေး</figcaption>
+            <div id="tofuCost">3500Ks</div>
+        </div>
+        <div class="divkhaung">
+            <img src="khaung.jpg" alt="khaung" class="khaung" onmouseover="khaungOver()" onmouseout="khaungOut()">
+            <figcaption id="figkhaung">ခေါင်ရည်</figcaption>
+            <div id="khaungCost">4000Ks</div>
+        </div>
+    </div>
+    <!--third row-->
+    <div id="thirdrow">
+        <div class="divfish">
+            <img src="fish.jpg" alt="fish" class="fish" onmouseover="fishOver()" onmouseout="fishOut()">
+            <figcaption id="figfish">ငါးထမင်းနယ်</figcaption>
+            <div id="fishCost">4500Ks</div>
+        </div>
+        <div class="divlaphet">
+            <img src="laphet.jpg" alt="laphet" class="laphet" onmouseover="laphetOver()" onmouseout="laphetOut()">
+            <figcaption id="figlaphet">လက်ဖက်သုပ်</figcaption>
+            <div id="laphetCost">2800Ks</div>
+        </div>
+        <div class="divtea">
+            <img src="tea.jpg" alt="tea" class="tea" onmouseover="teaOver()" onmouseout="teaOut()">
+            <figcaption id="figtea">လက်ဖက်ရည်</figcaption>
+            <div id="teaCost">2000Ks</div>
+        </div>
+    </div>
+    <!--fourth row-->
+    <div id="fourthrow">
+        <div class="divpork">
+            <img src="pork.jpg" alt="pork" class="pork" onmouseover="porkOver()" onmouseout="porkOut()">
+            <figcaption id="figpork">ဝက်သားနီချက်</figcaption>
+            <div id="porkCost">4500Ks</div>
+        </div>
+        <div class="divkhawpote">
+            <img src="khawpote.jpg" alt="khawpote" class="khawpote" onmouseover="khawpoteOver()" onmouseout="khawpoteOut()">
+            <figcaption id="figkhawpote">ရှမ်းခေါပုတ်ကြော်</figcaption>
+            <div id="khawpoteCost">2800Ks</div>
+        </div>
+        <div class="divtamarind">
+            <img src="tamarind.jpg" alt="tamarind" class="tamarind" onmouseover="tamarindOver()" onmouseout="tamarindOut()">
+            <figcaption id="figtamarind">မန်ကျည်းသီးဖျော်ရည်</figcaption>
+            <div id="tamarindCost">2000Ks</div>
+        </div>
+    </div>
+    <div id="footer">
+        © Copyright 2023 <a href=main.html class="bottom"> LOTAYA MYANMAR</a>  | All Rights Reserved.
+    </div>
+</body>
+</html>

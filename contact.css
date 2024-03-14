@@ -1,0 +1,113 @@
+        #contact{
+            padding: 0;
+            margin: 0;
+            color: rgb(48, 46, 46);
+            background-image: url(blurbg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 700px;
+            margin-bottom: 14px;
+        }
+        .container{
+        	background-image: url(blurbg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+            padding-top: 80px;
+        }
+        .he1{	
+            font-family: 'Libre Baskerville', serif;
+        	color: #e3dbce;
+        	font-size: 45px;
+        	text-align: center;
+        	font-weight: bold;
+        }
+        .he5{
+            font-size: 40px;
+            margin-top: 20px;
+            font-family: 'Merriweather', serif;
+            padding-top: 20px;
+            color: #E5D3B3;
+        }
+        .he3{
+        	font-size: 25px;
+            font-family: 'Merriweather', serif;
+            color: rgb(92, 51, 51);
+        }
+  
+        .contact-items{
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-top: 80px;
+
+        }
+        .write-us,.sales-market{
+        	background-color: #fcf7f086;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40%;
+            margin: 5px auto;
+            padding: 10px 10px;
+            border-radius: 20px;
+            text-align: center;
+            min-width: 300px;
+            
+        }
+   
+        .write-us{
+            height: 300px;
+            box-shadow: 0 15px 15px #6C3F31;
+            border: 1px solid #6C3F31;
+        }
+        .sales-market{
+            height: 300px;
+            box-shadow: 0 15px 15px #6C3F31;
+            border: 1px solid #6C3F31;
+        }
+        .para{
+            font-size: 17px;
+        }
+        button{
+            padding: 8px 16px;
+            font-size: 17px;
+            border-radius: 25px;
+            border: none;
+            margin: 15px auto;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+        }
+        button:hover{
+            color: gray;
+        }
+        #write{
+            background: rgb(92, 51, 51);
+
+            box-shadow: 0 0 5px brown;
+        }
+        #sales{
+            background: rgb(92, 51, 51);
+            box-shadow: 0 0 5px brown;
+        }
+        a{
+            font-size: 16px;
+        }
+        .customer-care a{
+            color: #9A6449;
+            text-shadow: 0 0 2px brown;
+        }
+        .sales-market a{
+            color: #9A6449;
+            text-shadow: 0 0 2px brown;
+        }
+        .para{
+        	color: black;
+        	font-style: italic;
+            font-family: 'Libre Baskerville', serif;
+        }

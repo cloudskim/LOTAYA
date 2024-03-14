@@ -1,0 +1,43 @@
+body{
+	font-family: 'Merriweather', serif;
+	background-image:url("spoon.jpg");
+	background-size: cover;
+	text-align: center;
+	font-weight: bolder;
+}
+.container{
+	font-size: 20px;
+	color: #9A6449;
+	font-weight: bolder;
+	background-color: rgba(255, 255, 255, 0.412);
+	padding: 10px 0px;
+}
+h2{
+	text-align: center;
+	margin-top: 70px;
+	font-size: 40px;
+	color: black;
+	font-weight: bolder;
+}
+h3{
+	color: #8b5903;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+h4{
+	color:rgb(92, 51, 51);
+}
+p{
+	font-weight: bolder;
+	color:rgb(92, 51, 51)
+}
+#icon{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 17px;
+    font-size: 25px;
+    color: black;
+}

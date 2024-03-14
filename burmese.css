@@ -1,0 +1,162 @@
+/*body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bgpop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bgburmese.jpg');
+    background-repeat:repeat-y;
+    background-size: contain;
+    background-attachment: scroll;
+    font-family: 'Merriweather', serif;
+}
+#icon{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 17px;
+    font-size: 25px;
+    color: rgb(71, 48, 2);
+}
+#head{
+    font-size: 50px;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 5px 5px 40px black;
+    font-family: 'Merriweather', serif;
+    padding-top: 30px;
+}
+#table1{
+    margin: 40px 40px;
+    border-collapse: collapse;
+    margin-left: 80px;
+}
+#table1{
+    margin-left: 0;
+}
+.table1{
+    width: fit-content;
+    height: auto;
+}
+#head1,#head2{
+    font-size: 34px;
+    padding: 20px 20px;
+}
+#head2{
+    padding-top: 60px;
+}
+td{
+    padding: 20px 200px 20px 60px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold
+}
+th{
+    width: 127px;
+    font-size: 24px;
+}
+
+.burmesenav{
+    padding-left: 80px;
+}
+a,#drop{
+    display: inline;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71, 48, 2);
+    transition:0.5s;
+    
+}
+#drop{
+    padding-left: 15px;
+}
+.navbar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    
+    background-color: rgb(245, 222, 179,0.4);
+    padding-top: 18px;
+    text-align: center;
+}
+#dropdown{
+    display: none;
+    position: absolute;
+    left: 76%;
+    top: 60px;
+    background-color: rgb(245, 222, 179,0.4);
+    box-sizing: border-box;
+    width: 150px;
+    
+}
+#trans1,#trans2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71, 48, 2);
+    border: none;
+    
+}
+#trans1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#trans1:hover,#trans2:hover{
+    color: black;
+}
+#trans2{
+    padding-bottom: 20px;
+}
+#drop:hover #dropdown{
+    display: block;
+}
+
+/*for images*/
+#photo,#nonephoto1,#nonephoto2,#nonephoto3{
+    width: 350px;
+    height: 300px;
+    margin: 135px 0px 30px 0px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black;
+}
+#nonephoto1,#nonephoto2,#nonephoto3{
+    display: block;
+}
+.table1,#images{
+    display: inline-block;
+}
+#images{
+    vertical-align: top;
+    margin-left: 84px;
+}
+/*nav hover*/
+div a:hover{
+    color: black;
+    text-shadow: 0px 0px 1px black;
+}
+
+/*footer*/
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color:rgb(116, 32, 32) ;
+    color:blanchedalmond;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
+.bottom{
+text-decoration: none;
+background-color: transparent;
+color:blanchedalmond;
+}

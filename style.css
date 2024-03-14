@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  display: flex;
+  width: 30vw;
+}
+.image {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  flex: 0;
+  margin: 10px;
+  position: relative;
+  transition: flex 1s ease-in;
+}
+.image.active {
+  flex: 2;
+}

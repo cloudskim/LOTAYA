@@ -1,0 +1,77 @@
+function Eng() {
+  document.getElementById("id1").innerHTML = "Shan Noodle";
+  document.getElementById("id2").innerHTML = "Warm & Soft Tofu";
+  document.getElementById("id3").innerHTML = "Starchy Gravy Noodle";
+  document.getElementById("id4").innerHTML = "Mustard Leave Pickled";
+  document.getElementById("id5").innerHTML = "Steamed Mustard Leave";
+  document.getElementById("id6").innerHTML = "Traditional Yellow Rice";
+  document.getElementById("id7").innerHTML = "Shan Beef Pickled";
+  document.getElementById("id8").innerHTML = "Shan-Burmese Dumpling";
+  document.getElementById("id9").innerHTML = "Steamed Mushroom";
+  document.getElementById("id13").innerHTML = "Inlay Fish Rice";
+  document.getElementById("id10").innerHTML = "Grilled-Steamed Fish";
+  document.getElementById("id11").innerHTML = "Fermented Soybean Salad";
+  document.getElementById("id12").innerHTML = "Shan Steamed Fish";
+  document.getElementById("id14").innerHTML = "Sour Soup";
+  document.getElementById("id15").innerHTML = "Kyainetone Noodle(Nawe)";
+  document.getElementById("id16").innerHTML = "Plain Noodle(khat)";
+  document.getElementById("id17").innerHTML = "Kyainetone Mont-ti";
+  document.getElementById("id18").innerHTML = "Fried Chicken Sago";
+  document.getElementById("id19").innerHTML = "Claypot Noodle";
+  document.getElementById("id20").innerHTML = "Chicken Soybean Potato";
+  document.getElementById("id21").innerHTML = "Shan Pickled Pork";
+  document.getElementById("id22").innerHTML = "Crispy Fried Pork Belly";
+  document.getElementById("id23").innerHTML = "Fermented Tofu";
+  document.getElementById("images").style.marginLeft = "55px";
+  document.getElementById("nonephoto").style.display = 'none';
+}
+function Myan() {
+  document.getElementById("id1").innerHTML = "ရှမ်းခေါက်ဆွဲ";
+  document.getElementById("id2").innerHTML = "တိုဟူးနွေး";
+  document.getElementById("id3").innerHTML = "ရှမ်းကော်ရည်ခေါက်ဆွဲ";
+  document.getElementById("id4").innerHTML = "ရှမ်းမုန်ညင်းချဉ်";
+  document.getElementById("id5").innerHTML = "ရှမ်းမုန်ညင်းပေါင်း";
+  document.getElementById("id6").innerHTML = "ရှမ်းထမင်းဝါ";
+  document.getElementById("id7").innerHTML = "ရှမ်းအမဲချဉ်";
+  document.getElementById("id8").innerHTML = "ရှမ်းဟင်းထုပ်";
+  document.getElementById("id9").innerHTML = "မှိုပေါင်း";
+  document.getElementById("id13").innerHTML = "ငါးထမင်းနယ်";
+  document.getElementById("id10").innerHTML = "ငါးအုံးငါးဖက်ထုပ်မီးကင်";
+  document.getElementById("id11").innerHTML = "ရှမ်းပဲပုတ်ထောင်း";
+  document.getElementById("id12").innerHTML = "ရှမ်းငါးပေါင်း";
+  document.getElementById("id14").innerHTML = "စွန်တန်ဟင်းချို";
+  document.getElementById("id15").innerHTML = "ကျိုင်းတုံခေါက်ဆွဲနွဲ့";
+  document.getElementById("id16").innerHTML = "ခေါက်ဆွဲခတ်";
+  document.getElementById("id17").innerHTML = "ကျိုင်းတုံမုန့်တီ";
+  document.getElementById("id18").innerHTML = "ကြက်သားသာကူလုံးကြော်";
+  document.getElementById("id19").innerHTML = "မြေအိုးမြီးရှည်";
+  document.getElementById("id20").innerHTML = "ရှမ်းပဲပုတ်ကြက်သားအာလူး";
+  document.getElementById("id21").innerHTML = "ရှမ်းဝက်သားချဉ်";
+  document.getElementById("id22").innerHTML = "ဝက်ခေါက်ကြော်";
+  document.getElementById("id23").innerHTML = "ဆီတိုဟူး";
+  document.getElementById("images").style.marginLeft = "100px";
+  document.getElementById("nonephoto").style.display = "block";
+}
+/*document.getElementById("").innerHTML = "";
+function Eng() {
+    document.getElementById("id1").innerHTML = "";
+    document.getElementById("id2").innerHTML = "";
+    document.getElementById("id3").innerHTML = "";
+    document.getElementById("id4").innerHTML = "";
+    document.getElementById("id5").innerHTML = "";
+    document.getElementById("id6").innerHTML = "";
+    document.getElementById("id7").innerHTML = "";
+    document.getElementById("id8").innerHTML = "";
+    document.getElementById("id9").innerHTML = "";
+    document.getElementById("id10").innerHTML = "";
+    document.getElementById("id11").innerHTML = "";
+    document.getElementById("id12").innerHTML = "";
+    document.getElementById("id13").innerHTML = "";
+    document.getElementById("id14").innerHTML = "";
+    document.getElementById("id15").innerHTML = "";
+    document.getElementById("id16").innerHTML = "";
+    document.getElementById("id17").innerHTML = "";
+    document.getElementById("id18").innerHTML = "";
+    document.getElementById("id19").innerHTML = "";
+    document.getElementById("id20").innerHTML = "";
+}*/

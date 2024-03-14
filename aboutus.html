@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>About Us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #header
+        {
+            background-image: url("restaurant4.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 400px;
+            background-size: 100% 400px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            color:rgb(138, 67, 67);
+            padding-top: 150px;
+            padding-left: 500px;
+            padding-right: 500px;
+        }
+
+        h1 {
+            font-size: 45px;
+            border: none;
+            background-origin: border-box;
+            background-color: rgba(250, 235, 215, 0.661);
+        }
+        #start
+        {
+            height: 500px;
+            width: 100%;
+            position: relative;
+        }
+        
+        #column
+        {
+            height: 500px;
+            background-color: rgb(246, 245, 240);
+            position: relative;
+        }
+        
+        #column img {
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 10px;
+            width: 50%;
+        } 
+
+        #text{
+            background-color: blanchedalmond;
+            position: absolute;
+            bottom: 40px;
+            right: 50px;
+            color: rgb(116, 32, 32);
+            padding-left: 20px;
+            padding-right: 20px;
+            width:50%;
+            font-family: 'Libre Baskerville', serif;
+            line-height: 1.6;
+        }
+        h2{
+            font-family: 'Merriweather', serif;
+            color: rgb(116, 32, 32);
+        }
+
+        #team{
+            padding-top:10px;
+            padding-bottom: 40px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+            color: rgb(116, 32, 32);
+            font-size: 45px;
+        }
+        #pcolumn{
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            margin-left: 130px;
+        }
+
+        #prow {
+            background-color: rgb(246, 245, 240);
+            height: 500px;
+        }
+
+        .row::after{
+            content: "";
+            clear:both;
+            display: table;
+        }
+
+        #pcolumn {
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .overlay {
+            position: absolute; 
+            bottom: 0; 
+            top:4px;
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1; 
+            width: 290px;
+            height: 386.27px;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            padding-top: 120px;
+            font-family: 'Merriweather', serif;
+            color:blanchedalmond;
+        }
+
+        #pcolumn:hover .overlay {
+            opacity: 1;
+        }
+        
+        .image{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .mid {
+            background-color:rgb(246, 245, 240);
+            height: 200px;
+        }
+        #articlewrap{
+            background-color:rgb(246, 245, 240);
+            background-origin: border-box;
+            border: none;
+            height: 320px;
+        }
+        #article{
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 10px 40px 10px 40px;
+            margin: 0px 50px 10px 40px;
+            font-family: 'Libre Baskerville', serif;
+            text-align: justify;
+            background-color: #ffebcd;
+            font-size: 18px;
+            color: rgb(116, 32, 32);
+            line-height: 1.5;
+        }
+
+        #footer
+        {
+            height: 150px;
+            width: 100%;
+            background-color:rgb(116, 32, 32) ;
+            color:blanchedalmond;
+            text-align: center;
+            padding-top: 120px;
+            font-family: 'Merriweather', serif;
+            font-size: 10px;
+        }   
+
+        .bottom{
+        text-decoration: none;
+        background-color: transparent;
+        color:blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+            <h1>ABOUT US</h1>
+    </div>
+    <div id="start">
+            <div id="column">
+                <img src="aboutus1.jpg">
+            <div id="text">
+                <h2>2004</h2>
+                <p>
+                    The beginnings in 2004 were modest, as LOTAYA was hidden at the far end of a narrow and bumpy lane in Yangon. 
+                    Finding the restaurant was almost like going on a treasure hunt.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="start">
+        <div id="column">
+            <img src="aboutus2.jpg">
+        <div id="text">
+            <h2>TODAY</h2>
+            <p style="text-align: justify;">
+                LOTAYA is now upgraded to a more spacious place, and a new renovation also included 
+                new private rooms and halls. All rooms are decorated based on Myanmar tradional themes
+                and better services are avaliable now.
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class="mid">
+        <div id="articlewrap">
+        <p id="article">
+            The magic of the Place keeps going with savory fragrances from the kitchen. You will see the authentic and 
+            homely vibes from our Chef's cuisines, making us one of the most popular Burmese cuisine restaurants in Yangon.
+            <br><br>LOTAYA will make the guests live an experience on it's own. LOTAYA offers more than what a restartant can
+            offer. Dining at LOTAYA is a lifetime happening to remember.
+        </p>
+        </div>
+    </div>
+    <div id="team">TEAM</div>
+    <div id="prow">
+        <div id="pcolumn">
+            <img src="person5.jpg" class="image" alt="Su Wai Wai Tun">
+            <div class="overlay">SU WAI WAI HTUN<br><br>Founder</div>
+        </div>
+        <div id="pcolumn">
+            <img src="person3.jpg" class="image" alt="Zin Nwe Hlaing">
+            <div class="overlay">ZIN NWE HLAING<br><br>CEO</div>
+        </div>
+        <div id="pcolumn">
+            <img src="person2.jpg" class="image" alt="K Zin Htet">
+            <div class="overlay">K ZIN HTET<br><br>Managing Director</div>
+        </div>
+    </div>
+    <div id="prow">
+        <div id="pcolumn">
+            <img src="person4.jpg" class="image" alt="Hsu Thet Pan">
+            <div class="overlay">HSU THET PAN<br><br>Main Chef</div>
+        </div>
+        <div id="pcolumn">
+            <img src="person1.jpg" class="image" alt="Phyu Phyu Win Thant">
+            <div class="overlay">PHYU PHYU WIN THANT<br><br>Maitre'D</div>
+        </div>
+        <div id="pcolumn">
+            <img src="person8.jpg" class="image" alt="Nyein Su Htwe">
+            <div class="overlay">NYEIN SU HTWE<br><br>HR Manager</div>
+        </div>
+    </div>
+    <div id="footer">
+        © Copyright 2023 <a href=main.html class="bottom"> LOTAYA MYANMAR</a>  | All Rights Reserved.
+    </div>
+</body>
+</html>

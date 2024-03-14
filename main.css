@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.nav{
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+	padding-top: 15px;
+	z-index: 3;
+}
+.nav li{
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 50px;
+	font-family: 'Merriweather', serif;
+}
+.nav li a{
+	color:#C25920;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	color:rgb(92, 51, 51);
+}
+.main{
+	background-image: url('Baganmm.jpg');
+	box-sizing: border-box;
+	width: 100%;
+	height: 800px;
+	margin-top: 0;
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 80px;
+	text-align:center;
+	padding-top: 130px;
+	color:rgb(92, 51, 51);
+}
+p{
+	font-family: 'Libre Baskerville', serif;
+	text-align:center;
+	margin-top: 50px;
+	color:rgb(92, 51, 51);
+	font-size:18px;
+}
+.homelink {
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(217, 203, 177);
+}
+#contact{
+	background-image: url("mohinkhar.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+/*footer*/
+.footer{
+	background:rgb(92, 51, 51);
+	padding:30px 0px;
+	font-family: 'Play', sans-serif;
+	text-align:center;
+	}
+	
+.footer .row{
+	width:100%;
+	margin:1% 0%;
+	padding:0.6% 0%;
+	color:blanchedalmond;
+	font-size: 13px;
+	}
+	
+.footer .row a{
+	text-decoration:none;
+	color:blanchedalmond;
+	transition:0.5s;
+	}
+	
+.footer .row a:hover{
+	color: goldenrod;
+	}
+	
+.footer .row ul{
+	width:100%;
+	}
+	
+.footer .row ul li{
+	display:inline-block;
+	margin:0px 30px;
+	}
+	
+.footer .row a i{
+	font-size:2em;
+	margin:0% 1%;
+	}
+	
+@media (max-width:720px){
+	.footer{
+	text-align:left;
+	padding:5%;
+	}
+	.footer .row ul li{
+	display:block;
+	margin:10px 0px;
+	text-align:left;
+	}
+	.footer .row a i{
+	margin:0% 3%;
+	}
+	}
+
+#navlogo{
+		display: inline;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 6px 10px 6px 27px ;
+		font-size: 25px;
+		color: black;
+	  }
+
+.imagelogo{
+		width: 40px;
+    	height: 40px;
+	}
+
+a.home{
+	padding-left: 5px;
+}
+

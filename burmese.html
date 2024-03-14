@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burmese</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="burmese.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="burmese.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="navbar">
+            <a class="burmesenav" href="burmese.html">BURMESE</a>
+            <a href="shan.html">SHAN</a>
+            <a href="dessert.html">DESSERT</a>
+            <a href="drink.html">DRINK</a>
+            <a href="popular.html">POPULAR</a>
+            <div id="drop">
+                <a href="#">TRANSLATE
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div id="dropdown">
+                    <div id="trans1" onclick="Eng()">English</div>
+                    <div id="trans2" onclick="Myan()">Myanmar</div>
+                </div>
+            </div>
+            
+        </div>
+        <center>
+            <div id="head">Burmese Food</div>
+        </center>
+        <a href="main.html">
+            <div id="icon">
+                <i class="fa-solid fa-reply-all"></i>
+            </div>
+        </a>
+        <div class="table1">
+            <table id="table1" cell-spacing="0" >
+                <ul>
+                    <tr>
+                        <td><li id="rice">ထမင်းဖြူအလွတ်</li></td> 
+                        <th>800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="bachelor">ကြက်ကာလသားချက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="liver">ကြက်မြစ်ကြက်သည်းချက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="gourd">ကြက်သားဘူးသီးချက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="mon">ကြက်မွန်ချက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="carame">ဝက်သားနီချက်</li> </td>
+                        <th>4500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="porkBean">ဝက်ပုန်း</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="porkBone">ဝက်နံရိုးဟင်းချို</li> </td>
+                        <th>3500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="offal">ဝက်ကလီစာချက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="beef">အမဲနှပ်</li> </td>
+                        <th>3500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="beefBone">အမဲနံရိုးစွပ်ပြုတ်</li> </td>
+                        <th>4000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="belly">အမဲဝမ်းတွင်းသား</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="catfish">ငါးကျည်းကြပ်တိုက်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="catFish">ငါးခူဟင်း</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="fishLime">ငါးသံပုရာပေါင်း</li> </td>
+                        <th>9000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="squid">ကင်းမွန်ချက်</li> </td>
+                        <th>3500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="fish">ငါးကြော်နှပ်</li> </td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="fishhead">ငါးခေါင်းဟင်းချို</li></td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="goatSpicy">ဆိတ်မွှကြော်</li></td>
+                        <th>3000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="goat">ဆိတ်သားချက်</li></td>
+                        <th>3500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="teagoat">ဆိတ်လက်ဖက်</li></td>
+                        <th>5500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="duck">ဘဲကင်</li></td>
+                        <th>15000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="duckCurry">ဘဲဆီပြန်ချက်</li></td>
+                        <th>5000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="prawn">ပုစွန်ထုပ်ဆီပြန်</li></td>
+                        <th>4000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="shrimp">ပုစွန်ဆိတ်အိုးကပ်</li></td>
+                        <th>3000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="tempura">ပုစွန်တန်ပူရာ</li></td>
+                        <th>5000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="crab">ဂဏန်းချဥ်စပ်</li></td>
+                        <th>8000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="spinach">ကန်စွန်းပလိန်း</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="mushroom">မှိုကန်စွန်း</li></td>
+                        <th>2200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="roselle">ချဥ်ပေါင်ကြော်</li></td>
+                        <th>1500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="soap">ကင်ပွန်းချဥ်ရွက်ကြော်</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="bamboo">ဝါးပိုးဝါးမျှစ်ကြော်</li></td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="cauli">ပန်းဂေါ်ဖီကြော်</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="cabbage">ဂေါ်ဖီထုတ်ကြော်</li></td>
+                        <th>1500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="corn">ပြောင်းဖူးကြော်</li></td>
+                        <th>1200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="curt">ပဲပင်ပေါက်ပဲပြားကြော်</li></td>
+                        <th>1200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="egg">ကြက်ဥဂေါ်ရခါးသီးကြော်</li></td>
+                        <th>2000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="redBean">ပဲနီလေးဟင်းချို</li></td>
+                        <th>2300Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="drum">ဒန့်သလွန်ဟင်းချို</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="gourdS">ဘူးသီးဟင်းချို</li></td>
+                        <th>2000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="leaves">ချဥ်ပေါင်ဟင်းချို</li></td>
+                        <th>1500Ks</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2" id="head2">အခြားရရှိနိုင်သော အစားအစာများ</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id1">ပသျှူးထမင်းကြော်</li></td>
+                        <th>4000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id2">တရုတ်ထမင်းကြော်</li></td>
+                        <th>4200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id3">မလေးရှားထမင်းကြော်</li></td>
+                        <th>4200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id4">ယိုးဒယားထမင်းကြော်</li></td>
+                        <th>4200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id5">ပိန်းဥထမင်းကြော်</li></td>
+                        <th>4000Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id6">ပင်လယ်စာထမင်းကြော်</li></td>
+                        <th>5500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id21">မုန့်ဟင်းခါး</li></td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id22">နန်းကြီးသုပ်</li></td>
+                        <th>2500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id7">ခေါက်ဆွဲကြော် (ကြက်/ဝက်)</li></td>
+                        <th>3800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id8">ကြာဇံကြော် (ကြက်/ဝက်)</li></td>
+                        <th>3800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id9">ကတ်ကြေးကိုက်</li></td>
+                        <th>3500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id10">အမဲ‌ခြောက်ဖုတ်</li></td>
+                        <th>7700Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id11">ဆိတ်သားခြောက်ဖုတ်</li></td>
+                        <th>8200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id12">ငါးခြောက်ဖုတ်</li></td>
+                        <th>3800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id13">လက်ဖက်သုပ်</li></td>
+                        <th>2800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id14">ဂျင်းသုပ်</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id15">ကျောက်ပွင့်သုပ်</li></td>
+                        <th>1800Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li  id="id16">မြင်းခွာရွက်သုပ်</li></td>
+                        <th>1500Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id17">ရှောက်သီးသုပ်</li></td>
+                        <th>1700Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id18">ဆေးဘဲဥသုပ်</li></td>
+                        <th>2200Ks</th>
+                    </tr>
+                    <tr>
+                        <td><li id="id19">ပဲပြားသုပ်</li></td>
+                        <th>1500Ks</td>
+                    </tr>
+                    <tr>
+                        <td><li id="id20">သခွတ်ရိုးခြောက်သုပ်</li></td>
+                        <th>1200Ks</th>
+                    </tr>
+                </ul>
+                
+            </table>
+        </div>
+        <div id="images">
+            <div class="photo">
+                <img src="porkbone.jpg" alt="porkBone" id="photo">
+            </div>
+            <div class="photo">
+                <img src="lemonfish.jpg" alt="lemonfish" id="photo">
+            </div>
+            <div class="photo">
+                <img src="duck.jpg" alt="duck" id="photo">
+            </div>
+            <div class="photo">
+                <img src="prawn.jpg" alt="prawn" id="photo">
+            </div>
+            <div class="photo">
+                <img src="crab.jpg" alt="crab" id="photo">
+            </div>
+            <div class="photo">
+                <img src="mushroom.jpg" alt="mushroom" id="photo">
+            </div>
+            <div class="photo">
+                <img src="panpwint.jpg" alt="panpwint" id="photo">
+            </div>
+            <div class="photo">
+                <img src="pelpin.jpg" alt="pelpin" id="photo" >
+            </div>
+            <div class="photo">
+                <img src="htaminkyaw.jpg" alt="htaminkyaw" id="photo" >
+            </div>
+            <div class="photo">
+                <img src="beancurd.jpg" alt="beancurd" id="photo" >
+            </div>
+            <div class="photo">
+                <img src="katkyay.jpg" alt="katkyay" id="nonephoto1" >
+            </div>
+            <div class="photo">
+                <img src="driedfish.jpg" alt="driedfish" id="nonephoto2" >
+            </div>
+            
+        </div>
+        
+        <div id="footer">
+            © Copyright 2023 <a href=main.html class="bottom"> LOTAYA MYANMAR</a>  | All Rights Reserved.
+        </div>
+</body>
+</html>
